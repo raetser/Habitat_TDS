@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+# Do not adjust line endings on Sitecore .item files
+*.item -text
