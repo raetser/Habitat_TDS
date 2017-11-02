@@ -36,6 +36,13 @@
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Test' ">
+    <DebugSymbols>true</DebugSymbols>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\Sitecore.Feature.Accounts.Master_Debug.xml</ValidationSettingsFilePath>
+    <OutputPath>bin\Test\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
       <Value>$(AssemblyFileVersion)</Value>

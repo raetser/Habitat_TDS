@@ -56,6 +56,22 @@
     <PackageExcludeCode>False</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Test' ">
+    <DebugSymbols>true</DebugSymbols>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <InstallPackageIfMissing>true</InstallPackageIfMissing>
+    <PackageName>Sitecore.Habitat</PackageName>
+    <PackageAuthor />
+    <PackagePublisher />
+    <PackageVersion />
+    <PackageReadme />
+    <SitecoreAssemblyPath />
+    <GeneratePackage>False</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <OutputPath>bin\Test\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
       <Value>$(AssemblyFileVersion)</Value>
