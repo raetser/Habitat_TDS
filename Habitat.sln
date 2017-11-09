@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		scripts\applytransform.targets = scripts\applytransform.targets
+		GitVersionConfig.yaml = GitVersionConfig.yaml
 		gulp-config.js = gulp-config.js
 		gulpfile.js = gulpfile.js
 		LICENSE = LICENSE
@@ -74,6 +75,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{B9938A83-271F-4269-871B-A6DA15E476BD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "News", "News", "{049C2109-CF4F-4DD1-977D-92150C924E71}"
+	ProjectSection(SolutionItems) = preProject
+		GitVersionConfig.yaml = GitVersionConfig.yaml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent", "{1EAC8CAC-9109-4A7A-9895-00248779A5D3}"
 EndProject
