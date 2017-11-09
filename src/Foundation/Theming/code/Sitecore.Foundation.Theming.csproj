@@ -270,8 +270,10 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\..\..\..\packages\BuildBundlerMinifier.2.4.337\build\BuildBundlerMinifier.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\BuildBundlerMinifier.2.4.337\build\BuildBundlerMinifier.targets'))" />
     <Error Condition="!Exists('..\..\..\..\packages\GitVersionTask.3.6.3\build\dotnet\GitVersionTask.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\GitVersionTask.3.6.3\build\dotnet\GitVersionTask.targets'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\OctoPack.3.6.3\build\OctoPack.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\OctoPack.3.6.3\build\OctoPack.targets'))" />
   </Target>
   <Import Project="..\..\..\..\packages\GitVersionTask.3.6.3\build\dotnet\GitVersionTask.targets" Condition="Exists('..\..\..\..\packages\GitVersionTask.3.6.3\build\dotnet\GitVersionTask.targets')" />
+  <Import Project="..\..\..\..\packages\OctoPack.3.6.3\build\OctoPack.targets" Condition="Exists('..\..\..\..\packages\OctoPack.3.6.3\build\OctoPack.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
