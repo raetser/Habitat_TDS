@@ -1,18 +1,17 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-<metadata>
-<id>UpdatePackage</id>
-<version>1.0.0</version>
-<title>Update package</title>
-<authors>Me</authors>
-<owners>Hedgehog Development</owners>
-<requireLicenseAcceptance>false</requireLicenseAcceptance>
-<description>Contains .update package</description>
-<copyright>Copyright ©</copyright>
-<tags></tags>
-</metadata>
-<files>
-<file src="C:\BuildAgent\work\49b160f6da32d003\TDS with TC and
-Octopus\TDSProject\bin\Package_CreatePackage\TDSProject.update" />
-</files>
+  <metadata>
+    <id>UpdatePackage</id>
+    <version>1.0.0</version>
+    <title>Update package</title>
+    <authors>Erwin Raets</authors>
+    <owners>Plan B</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Contains .update package</description>
+    <copyright>Copyright ©</copyright>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="..\tds\Sitecore.Common.Website.Master\Package_Test\Sitecore.Common.Website.Master.update" />
+  </files>
 </package>
