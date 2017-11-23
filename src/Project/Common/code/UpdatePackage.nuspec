@@ -12,6 +12,6 @@
     <tags></tags>
   </metadata>
   <files>
-    <file src="..\tds\Sitecore.Common.Website.Master\Package_Test\Sitecore.Common.Website.Master.update" />
+    <file src="..\tds\Sitecore.Common.Website.Master\bin\Package_Test\Sitecore.Common.Website.Master.update" />
   </files>
 </package>
