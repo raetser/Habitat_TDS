@@ -941,6 +941,15 @@
     <ProjectReference Include="..\..\..\..\Foundation\Assets\tds\Sitecore.Foundation.Assets.Master\Sitecore.Foundation.Assets.Master.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\DependencyInjection\tds\Sitecore.Foundation.DependencyInjection.Master\Sitecore.Foundation.DependencyInjection.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\Dictionary\tds\Sitecore.Foundation.Dictionary.Master\Sitecore.Foundation.Dictionary.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\FieldEditor\tds\Sitecore.Foundation.FieldEditor.Core\Sitecore.Foundation.FieldEditor.Core.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\..\Foundation\Forms\tds\Sitecore.Foundation.Forms.Master\Sitecore.Foundation.Forms.Master.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
@@ -948,6 +957,9 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\..\..\..\Foundation\Installer\tds\Sitecore.Foundation.Installer.Master\Sitecore.Foundation.Installer.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\LocalDatasource\tds\Sitecore.Foundation.LocalDatasource.Master\Sitecore.Foundation.LocalDatasource.Master.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\..\..\..\Foundation\Multisite\tds\Sitecore.Foundation.Multisite.Master\Sitecore.Foundation.Multisite.Master.scproj">
@@ -1052,6 +1064,15 @@
     <BundledProject Include="..\..\..\..\Foundation\Assets\tds\Sitecore.Foundation.Assets.Master\Sitecore.Foundation.Assets.Master.scproj">
       <ProjectId>{031de74a-d92d-4e68-90c3-8e99ec0d83a5}</ProjectId>
     </BundledProject>
+    <BundledProject Include="..\..\..\..\Foundation\DependencyInjection\tds\Sitecore.Foundation.DependencyInjection.Master\Sitecore.Foundation.DependencyInjection.Master.scproj">
+      <ProjectId>{690482d5-10cc-4f8d-a301-7ef8c17a2e18}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Foundation\Dictionary\tds\Sitecore.Foundation.Dictionary.Master\Sitecore.Foundation.Dictionary.Master.scproj">
+      <ProjectId>{5017b3bf-e175-4c13-9500-b64ddb3ce0a5}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Foundation\FieldEditor\tds\Sitecore.Foundation.FieldEditor.Core\Sitecore.Foundation.FieldEditor.Core.scproj">
+      <ProjectId>{7791b7e8-0c05-41b7-8ea7-bbd4107581e0}</ProjectId>
+    </BundledProject>
     <BundledProject Include="..\..\..\..\Foundation\Forms\tds\Sitecore.Foundation.Forms.Master\Sitecore.Foundation.Forms.Master.scproj">
       <ProjectId>{feb3bdca-6086-4c2d-b021-a8c399ebeae6}</ProjectId>
     </BundledProject>
@@ -1060,6 +1081,9 @@
     </BundledProject>
     <BundledProject Include="..\..\..\..\Foundation\Installer\tds\Sitecore.Foundation.Installer.Master\Sitecore.Foundation.Installer.Master.scproj">
       <ProjectId>{8fc51e9f-0c50-4c19-b45b-1e15b327bc50}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Foundation\LocalDatasource\tds\Sitecore.Foundation.LocalDatasource.Master\Sitecore.Foundation.LocalDatasource.Master.scproj">
+      <ProjectId>{d28dcfc0-a1b4-4f91-8038-19e0e1103e6a}</ProjectId>
     </BundledProject>
     <BundledProject Include="..\..\..\..\Foundation\Multisite\tds\Sitecore.Foundation.Multisite.Master\Sitecore.Foundation.Multisite.Master.scproj">
       <ProjectId>{0ffda52a-7be3-44b0-a1c3-5a7305b4ca89}</ProjectId>
