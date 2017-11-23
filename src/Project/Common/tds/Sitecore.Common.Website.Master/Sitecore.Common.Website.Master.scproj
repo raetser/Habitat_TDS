@@ -36,10 +36,12 @@
     <PackageReadme>Global package generated from all Helix projects</PackageReadme>
     <SitecoreAssemblyPath>
     </SitecoreAssemblyPath>
-    <GeneratePackage>True</GeneratePackage>
+    <GeneratePackage>False</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>True</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\Sitecore.Common.Website.Master_Debug.xml</ValidationSettingsFilePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -54,7 +56,7 @@
     <PackageName>Sitecore.Common.Website.Master</PackageName>
     <PackageAuthor>Erwin Raets</PackageAuthor>
     <PackagePublisher>Erwin Raets</PackagePublisher>
-    <PackageVersion />
+    <PackageVersion>1.0.0</PackageVersion>
     <PackageReadme>Global package generated from all Helix projects</PackageReadme>
     <SitecoreAssemblyPath>
     </SitecoreAssemblyPath>
