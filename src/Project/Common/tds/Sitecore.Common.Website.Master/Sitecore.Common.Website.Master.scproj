@@ -56,7 +56,8 @@
     <PackagePublisher>Erwin Raets</PackagePublisher>
     <PackageVersion />
     <PackageReadme>Global package generated from all Helix projects</PackageReadme>
-    <SitecoreAssemblyPath />
+    <SitecoreAssemblyPath>
+    </SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>True</PackageExcludeCode>
