@@ -49,13 +49,13 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Test' ">
     <DebugSymbols>true</DebugSymbols>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <OutputPath>.\bin\Debug\</OutputPath>
+    <OutputPath>.\bin\Test\</OutputPath>
     <LightningDeployMode>False</LightningDeployMode>
     <PackageName>Sitecore.Common.Website.Master</PackageName>
     <PackageAuthor>Erwin Raets</PackageAuthor>
     <PackagePublisher>Erwin Raets</PackagePublisher>
     <PackageVersion />
-    <PackageReadme />
+    <PackageReadme>Global package generated from all Helix projects</PackageReadme>
     <SitecoreAssemblyPath />
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
