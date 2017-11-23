@@ -13,5 +13,5 @@
   </metadata>
   <files>
     <file src="..\tds\Sitecore.Common.Website.Master\bin\Package_Test\Sitecore.Common.Website.Master.update" />
-  </files>
+  </files> 
 </package>
