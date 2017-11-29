@@ -41,3 +41,5 @@ temp/
 *.ncrunchsolution
 .vscode
 nCrunchTemp*.*
+# Custom for TDS/Sitecore serialization 
+*.item -text 
