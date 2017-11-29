@@ -1,19 +1,19 @@
 ----item----
 version: 1
-id: {8664A57F-F2C9-4B18-B4E5-D3FED495D212}
+id: {156651DD-1922-412A-81F4-E124B77F62DE}
 database: master
-path: /sitecore/templates/Project/Common/Content Types
-parent: {104E6124-706D-4620-9DB6-F8814BE5F471}
-name: Content Types
+path: /sitecore/templates/Project/Common/Content Types/Social
+parent: {8664A57F-F2C9-4B18-B4E5-D3FED495D212}
+name: Social
 master: {00000000-0000-0000-0000-000000000000}
 template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
 templatekey: Template Folder
-created: 20170920T134617Z
+created: 20170920T134618Z
 
 ----version----
 language: en
 version: 1
-revision: 1432b35c-5db4-408e-b82e-353939b3bc51
+revision: da4088f9-65cc-4d2a-8fb6-63682abd6dbb
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -21,7 +21,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20151216T021306Z
+20151216T022723Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -35,14 +35,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1432b35c-5db4-408e-b82e-353939b3bc51
+da4088f9-65cc-4d2a-8fb6-63682abd6dbb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170612T151852Z
+20170612T151857Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -53,22 +53,22 @@ sitecore\unicorn
 ----version----
 language: ja-JP
 version: 1
-revision: ba185ed1-a21c-4391-a4b7-4abf8525435a
+revision: 745b23b8-b4e4-4e87-a762-46d971a5e2ef
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 7
+content-length: 5
 
-コンテンツ形式
+ソーシャル
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20170323T054840Z
+20170323T054846Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -82,14 +82,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ba185ed1-a21c-4391-a4b7-4abf8525435a
+745b23b8-b4e4-4e87-a762-46d971a5e2ef
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170612T151852Z
+20170612T151857Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

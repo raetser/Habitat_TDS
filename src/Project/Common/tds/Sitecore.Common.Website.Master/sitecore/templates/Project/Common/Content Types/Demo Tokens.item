@@ -1,19 +1,19 @@
 ----item----
 version: 1
-id: {8664A57F-F2C9-4B18-B4E5-D3FED495D212}
+id: {32F4012D-FC30-4EFD-AF6C-1D3144B257FC}
 database: master
-path: /sitecore/templates/Project/Common/Content Types
-parent: {104E6124-706D-4620-9DB6-F8814BE5F471}
-name: Content Types
+path: /sitecore/templates/Project/Common/Content Types/Demo Tokens
+parent: {8664A57F-F2C9-4B18-B4E5-D3FED495D212}
+name: Demo Tokens
 master: {00000000-0000-0000-0000-000000000000}
 template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
 templatekey: Template Folder
-created: 20170920T134617Z
+created: 20170920T134619Z
 
 ----version----
 language: en
 version: 1
-revision: 1432b35c-5db4-408e-b82e-353939b3bc51
+revision: 5c7d7d9e-8255-4ae7-bfaf-a720d079cf2e
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -21,7 +21,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20151216T021306Z
+20151110T043416Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -35,14 +35,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1432b35c-5db4-408e-b82e-353939b3bc51
+5c7d7d9e-8255-4ae7-bfaf-a720d079cf2e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170612T151852Z
+20170612T151854Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -53,7 +53,7 @@ sitecore\unicorn
 ----version----
 language: ja-JP
 version: 1
-revision: ba185ed1-a21c-4391-a4b7-4abf8525435a
+revision: aac68397-5d27-4025-9bb5-222990492ecd
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -61,7 +61,7 @@ name: __Display name
 key: __display name
 content-length: 7
 
-コンテンツ形式
+デモ トークン
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -82,14 +82,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ba185ed1-a21c-4391-a4b7-4abf8525435a
+aac68397-5d27-4025-9bb5-222990492ecd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170612T151852Z
+20170612T151854Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

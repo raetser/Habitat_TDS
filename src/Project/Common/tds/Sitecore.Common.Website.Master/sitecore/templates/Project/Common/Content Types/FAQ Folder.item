@@ -1,19 +1,40 @@
 ----item----
 version: 1
-id: {8664A57F-F2C9-4B18-B4E5-D3FED495D212}
+id: {41DA2D61-D85A-40F1-BE69-DDD18DD1BC93}
 database: master
-path: /sitecore/templates/Project/Common/Content Types
-parent: {104E6124-706D-4620-9DB6-F8814BE5F471}
-name: Content Types
+path: /sitecore/templates/Project/Common/Content Types/FAQ Folder
+parent: {8664A57F-F2C9-4B18-B4E5-D3FED495D212}
+name: FAQ Folder
 master: {00000000-0000-0000-0000-000000000000}
-template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
-templatekey: Template Folder
-created: 20170920T134617Z
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+created: 20170920T134619Z
 
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 38
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{4EABF0F3-1374-4467-BE9C-1F322B8D0966}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 28
+
+Apps/32x32/Question mark.png
 ----version----
 language: en
 version: 1
-revision: 1432b35c-5db4-408e-b82e-353939b3bc51
+revision: b5e1df7b-9631-4a6e-88bb-5d313bb10402
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -21,7 +42,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20151216T021306Z
+20160301T102547Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -35,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1432b35c-5db4-408e-b82e-353939b3bc51
+b5e1df7b-9631-4a6e-88bb-5d313bb10402
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170612T151852Z
+20170612T151855Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -53,22 +74,22 @@ sitecore\unicorn
 ----version----
 language: ja-JP
 version: 1
-revision: ba185ed1-a21c-4391-a4b7-4abf8525435a
+revision: d8af2024-c6fd-4201-8d0e-df16b7a9d5a5
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 7
+content-length: 4
 
-コンテンツ形式
+フォルダ
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20170323T054840Z
+20170323T054841Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -82,14 +103,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ba185ed1-a21c-4391-a4b7-4abf8525435a
+d8af2024-c6fd-4201-8d0e-df16b7a9d5a5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170612T151852Z
+20170612T151855Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
