@@ -82,6 +82,7 @@
     <SitecoreItem Include="sitecore\templates\Foundation\SitecoreExtensions\ParametersTemplate_HasDynamicPlaceholder\Page Layout\UseStaticPlaceholderNames.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>UseStaticPlaceholderNames</SitecoreName>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Foundation\SitecoreExtensions\ParametersTemplate_QueryableDatasourceRendering.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
