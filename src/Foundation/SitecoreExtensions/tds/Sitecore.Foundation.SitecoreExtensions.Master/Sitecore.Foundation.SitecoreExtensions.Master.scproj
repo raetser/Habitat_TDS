@@ -63,42 +63,45 @@
       <ItemDeployment>DeployOnce</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\SitecoreExtensions.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\SitecXt.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <SitecoreName>SitecoreExtensions</SitecoreName>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\SitecoreExtensions\ParametersTemplate_HasDynamicPlaceholder.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\SitecoreExtensions\ParametersTemplate_HasDynamicPlaceholder\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\SitecXt\ParametersTemplate_HasDynamicPlaceholder.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\SitecoreExtensions\ParametersTemplate_HasDynamicPlaceholder\Page Layout.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\SitecXt\ParametersTemplate_HasDynamicPlaceholder\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\SitecoreExtensions\ParametersTemplate_HasDynamicPlaceholder\Page Layout\UseStaticPlaceholderNames.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\SitecXt\ParametersTemplate_HasDynamicPlaceholder\Page Layout.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Foundation\SitecXt\ParametersTemplate_HasDynamicPlaceholder\Page Layout\UseStaticPlaceholderNames.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <SitecoreName>UseStaticPlaceholderNames</SitecoreName>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\SitecoreExtensions\ParametersTemplate_QueryableDatasourceRendering.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\SitecXt\ParamTempQDR.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>ParametersTemplate_QueryableDatasourceRendering</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Foundation\SitecXt\ParamTempQDR\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\SitecoreExtensions\ParametersTemplate_QueryableDatasourceRendering\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\SitecXt\ParamTempQDR\Search.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\SitecoreExtensions\ParametersTemplate_QueryableDatasourceRendering\Search.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\SitecXt\ParamTempQDR\Search\ParamTempHasDP.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\SitecoreExtensions\ParametersTemplate_QueryableDatasourceRendering\Search\SearchResultsLimit.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>SearchResultsLimit</SitecoreName>
     </SitecoreItem>
   </ItemGroup>
   <ItemGroup>
